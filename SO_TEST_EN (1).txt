@@ -1,0 +1,431 @@
+﻿1. Memory, in which all processes see the same sequence of references is:
+
+(a) Consistently strict
+
+(b) Cohesive causation
+
+(c) Consistently poor
+
+(d) Sequentially coherent
+
+2. Updating files by voting: for 10 servers it was assumed that 4 must give permission for the record. Therefore:
+
+(a) writing quorum> 6
+
+(b) reading quorum> 6
+(c) reading quorum = 4
+
+d) writing quorum = 6
+
+
+
+3. Paging: window of the working set = 10. The working set is:
+
+(a) A collection of pages to which the last 10 references relate
+(b) 10 active processes
+
+(c) 10 frames of a given process
+
+(d) Generating processes> 10 page faults
+
+
+
+4. The shortest average process wait time in the queue is provided by the algorithm:
+
+(a) FCFS
+
+(b) SJF
+
+(c) SJF with expropriation
+(d) Rotational
+
+
+
+5. Hard disk: an algorithm is used to handle real-time requests
+
+(a) EDF
+(b) LOOK
+
+(c) SSTF
+
+(d) C-SCAN
+
+
+
+6. In algae. distributed block detection, lock detection occurs when the process receives a message:
+
+(a) With your own number in the "message creator" field 
+(b) Out of date
+
+(c) With your successor's number
+
+(d) With the number of the resource it is waiting for
+
+
+
+7. The occurrence of continuous page errors due to the replacement of pages to which there are frequent references are:
+
+(a) Starving
+
+(b) Misunderstanding
+
+(c) Fragment
+
+(d) Szamotanie
+
+8. With RAM segmentation:
+
+(a) Inflation of addresses
+
+(b) Internal fragmentation
+
+(c) External fragmentation
+(d) Starving processes
+
+9. Alg. Optimal removes the page:
+
+(a) Earliest loaded
+
+(b) Unused the longest
+
+(c) Most used
+
+(d) one that will not be used for the longest time
+
+10. The Lamport algorithm provides:
+
+(a) Consistency of RAM
+
+(b) Set max. the yaw rate
+
+(c) Organized time events 
+(d) Detection of a blockade
+
+
+
+11. In the approximated LRU, the reference bit is reset:
+
+(a) When the page is loaded
+
+(b) When deleting a page
+(c) When searching for a page to delete 
+(d) On the error of the page
+
+
+
+12. When planning the processor allocation using the SJF method, the average process wait time is:
+
+(a) is always optimal (the shortest) 
+(b) is always the longest
+(c) is equal to the time for the FIFO method of expropriation
+
+(d) depends on the length of the quantum used
+
+
+
+13. FCFS algorithm for scheduling the processor allocation:
+
+(a) requires expropriation
+
+(b) requires estimation of the processor phase length
+
+(c) it is always non-collapsing
+(d) has computational complexity O (n ^ 2)
+
+
+
+14. In a given system, the average process wait time is 4 seconds, and new processes arrive at a rate of 12 processes / sec. Therefore, the average queue length of the waiting processes is:
+
+(a) 48 processes
+(b) 3 processes
+
+(c) 0.33 of the process
+
+(d) 18 processes
+
+
+
+15. The SIGNALING operation on the S semaphone is defined as follows:
+
+(a) S = 0
+
+(b) S = 1
+
+(c) while S <= 0 to nothing; S = S-1
+
+(d) S = S + 1
+
+16. The WAIT operation on the S semaphore is defined as follows:
+
+(a) S = 0
+
+(b) S = 1
+
+(c) while S <= 0 to nothing; S = S-1
+(d) S = S + 1
+
+
+
+17. If there is a cycle in the resource allocation graph, then:
+
+(a) there is definitely no blockade
+
+(b) there is always a blockage
+
+(c) there is a blockade with one resource 
+(d) resources are multiple
+
+
+
+18. The condition of the blockade is not:
+
+(a) mutual inclusion
+
+(b) detention (resources) and waiting (for resources)
+
+(c) reproduction of resources
+(d) no expropriation
+
+
+
+19. The existence of unused memory within already allocated areas is:
+
+(a) external fragmentation
+
+(b) internal fragmentation 
+(c) exchange
+
+(d) deadlock
+
+
+
+20. In the FIFO page replacement algorithm:
+
+(a) we remove the oldest page loaded into the RAM
+
+(b) delete the page that will not be used for the longest time
+(c) delete the page that has not been used for the longest time
+
+(d) we remove the most frequently used page
+
+
+
+21. Paging: in the so-called the zonal model of the "zone" of the process is:
+
+(a) a set of process pages in simultaneous use 
+(b) a collection of pages in associative memory
+
+(c) the content of the page table
+
+(d) collection of empty frames
+
+
+
+22. The WAIT and SIGNALING operations on the S semaphore must be:
+
+(a) written in machine language
+
+(b) indivisible
+(c) precompiled
+
+(d) they do not have to
+
+
+
+23. Planning for disk access using the SSTF method is characterized by the following:
+
+(a) sudden and frequent head deflections occur
+
+(b) it is possible to "starve" some orders
+(c) the head moves only towards the increasing number paths
+
+(d) the temperature of the disk is constant
+
+
+
+24. Security: identification of entities is:
+
+(a) access control
+
+(b) authorization
+(c) audit
+
+(d) decompactification
+
+
+
+25. Restriction of access to the internet based on the degree of confidentiality of information stored by the object is:
+
+(a) Mandatory Access Control
+
+(b) Audit
+
+(c) Discretionary Access Control®
+(d) Authorization
+
+
+
+26. For MISD class machines (in accordance with the so-called Flynn taxonomy) we include:
+
+(a) a single-processor PC
+
+(b) Multikomputer
+
+(c) a matrix processor
+
+(d) machines of this class are not constructed
+
+
+
+27. For a clock whose indications differ from the absolute time by a maximum of 2 seconds. for every 10 seconds the value of the maximum deviation factor β will be:
+
+(a) less than zero
+
+(b) exactly 0.2
+(c) exactly 1.2
+
+(d) exactly 5
+
+
+
+28. In the tyrant's algorithm, the process starting the election sends a message to:
+
+(a) all processes
+
+(b) processes with higher numbers
+(c) processes with lower numbers
+
+(d) time server
+
+
+
+29. 'Coherence of transactions' means that the transaction:
+
+(a) may not violate system invariants
+(b) can not be canceled upon completion
+
+(c) it is carried out wholly or not at all
+
+(d) it is not possible to nest transactions
+
+
+
+30. In systems with multithreaded processes, process elements include:
+
+(a) semaphores, open files, address space
+(b) list of requested resources
+
+(c) stack, registers, instruction counter
+
+(d) status, global variables, stack, open files
+
+
+
+31. Consider two service systems: 1. A pool of N identical processors with one common queue of processes 2. N identical processors, each of which has its own process queue. For the same test task sequence in both cases, the average process time in the second system will be theoretically:
+
+(a) the same
+
+(b) n times greater
+(c) n / 2 times bigger
+
+(d) n times smaller
+
+
+
+32. The method of processor allocation by means of a deterministic algorithm based on the theoretical graph is to allocate:
+
+(a) guaranteeing equal participation of users in computing power
+
+(b) minimizing the waiting time
+
+(c) minimizing network traffic
+(d) not requiring central management
+
+
+
+33. File-sharing semantics, in which the principle of "changes to an open file are only visible when it is closed" is called:
+
+(a) session semantics
+(b) Unix semantics
+
+(c) the semantics of old files
+
+(d) harvesting semantics
+
+
+
+34. Memory in which access to synchronizing variables is consistent sequentially is:
+
+(a) consistent strictly
+
+(b) consistent sequentially
+
+(c) cohesive
+
+(d) consistent weakness
+
+
+35. The EDF algorithm will select the read request for the disk block:
+
+(a) with a minimum address
+
+(b) about the next time limit 
+(c) not requiring head movement
+
+(d) feasible in the shortest possible time
+
+
+
+36. When paging, external fragmentation:
+
+(a) occurs for a large page size
+
+(b) occurs for a small page size
+
+(c) results from the discontinuity of the address space of the frames
+
+(d) does not occur
+
+
+
+37. Who is the author of the koala photo?
+
+(a) Borzo
+(b) Prof. meme
+
+(c) Gavro
+
+(d) Rataj
+
+
+
+38. In a distributed system, the maximum deviation factor for each of the clocks is β. It is therefore known that after the time t from synchronization, the maximum difference between their indications will be at most:
+
+(a) βt
+
+(b) 2β
+
+(c) 2βt
+(d) β / t
+
+
+
+39. What is the pre-register register for?
+
+(a) to write data to the disk
+
+(b) to handle transactions
+(c) to create threads
+
+(d) for the allocation of frames
+
+
+
+40. File division semantics, in which the reading from a file returns the most recently saved value:
+
+(a) semantics of permanent files
+(b) session semantics
+
+(c) transactional semantics
+
+(d) avoidance semantics
